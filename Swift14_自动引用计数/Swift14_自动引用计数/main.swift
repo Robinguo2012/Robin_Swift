@@ -63,10 +63,13 @@ unit = nil
 
 var json:Customer?
 json = Customer(name: "json")
-let creditCard = CreditCard(num: 123456789, customer: json!)
+//let creditCard = CreditCard(num: 123456789, customer: json!)
+//json!.creditCard = creditCard
+json!.creditCard = CreditCard(num: 1232432424234, customer: json!)
 
 json = nil
 
+var contry = Country(name: "Canada", capitalCityName: "Ottawa")
 
 
 

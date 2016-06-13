@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B2A11521D06E92C00BA12FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A11511D06E92C00BA12FE /* main.swift */; };
-		1B2A115B1D06EFF000BA12FE /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A115A1D06EFF000BA12FE /* Apartment.swift */; };
-		1B2A115D1D06F64100BA12FE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A115C1D06F64100BA12FE /* Customer.swift */; };
-		1B2A11611D06F6B600BA12FE /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A11601D06F6B600BA12FE /* CreditCard.swift */; };
-		1B2F5E6A1D07BC1A00556057 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F5E691D07BC1A00556057 /* Country.swift */; };
-		1B2F5E6C1D07BC2700556057 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F5E6B1D07BC2700556057 /* City.swift */; };
+		1B35BCCB1D0CF82C002D3CE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35BCCA1D0CF82C002D3CE7 /* main.swift */; };
+		1B35BCD21D0CFB84002D3CE7 /* Residence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35BCD11D0CFB84002D3CE7 /* Residence.swift */; };
+		1B35BCD41D0CFE00002D3CE7 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35BCD31D0CFE00002D3CE7 /* Room.swift */; };
+		1B35BCD61D0CFE4F002D3CE7 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35BCD51D0CFE4F002D3CE7 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1B2A114C1D06E92C00BA12FE /* CopyFiles */ = {
+		1B35BCC51D0CF82C002D3CE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,17 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B2A114E1D06E92C00BA12FE /* Swift14_自动引用计数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift14_自动引用计数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B2A11511D06E92C00BA12FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		1B2A115A1D06EFF000BA12FE /* Apartment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
-		1B2A115C1D06F64100BA12FE /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		1B2A11601D06F6B600BA12FE /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
-		1B2F5E691D07BC1A00556057 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		1B2F5E6B1D07BC2700556057 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		1B35BCC71D0CF82C002D3CE7 /* Swift15_可选链 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift15_可选链"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B35BCCA1D0CF82C002D3CE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1B35BCD11D0CFB84002D3CE7 /* Residence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Residence.swift; sourceTree = "<group>"; };
+		1B35BCD31D0CFE00002D3CE7 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		1B35BCD51D0CFE4F002D3CE7 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B2A114B1D06E92C00BA12FE /* Frameworks */ = {
+		1B35BCC41D0CF82C002D3CE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,105 +44,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B2A11451D06E92C00BA12FE = {
+		1B35BCBE1D0CF82C002D3CE7 = {
 			isa = PBXGroup;
 			children = (
-				1B2A11501D06E92C00BA12FE /* Swift14_自动引用计数 */,
-				1B2A114F1D06E92C00BA12FE /* Products */,
+				1B35BCC91D0CF82C002D3CE7 /* Swift15_可选链 */,
+				1B35BCC81D0CF82C002D3CE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1B2A114F1D06E92C00BA12FE /* Products */ = {
+		1B35BCC81D0CF82C002D3CE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B2A114E1D06E92C00BA12FE /* Swift14_自动引用计数 */,
+				1B35BCC71D0CF82C002D3CE7 /* Swift15_可选链 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B2A11501D06E92C00BA12FE /* Swift14_自动引用计数 */ = {
+		1B35BCC91D0CF82C002D3CE7 /* Swift15_可选链 */ = {
 			isa = PBXGroup;
 			children = (
-				1B2A11511D06E92C00BA12FE /* main.swift */,
-				1B2A115A1D06EFF000BA12FE /* Apartment.swift */,
-				1B2A115C1D06F64100BA12FE /* Customer.swift */,
-				1B2A11601D06F6B600BA12FE /* CreditCard.swift */,
-				1B2F5E691D07BC1A00556057 /* Country.swift */,
-				1B2F5E6B1D07BC2700556057 /* City.swift */,
+				1B35BCCA1D0CF82C002D3CE7 /* main.swift */,
+				1B35BCD11D0CFB84002D3CE7 /* Residence.swift */,
+				1B35BCD31D0CFE00002D3CE7 /* Room.swift */,
+				1B35BCD51D0CFE4F002D3CE7 /* Address.swift */,
 			);
-			path = "Swift14_自动引用计数";
+			path = "Swift15_可选链";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B2A114D1D06E92C00BA12FE /* Swift14_自动引用计数 */ = {
+		1B35BCC61D0CF82C002D3CE7 /* Swift15_可选链 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B2A11551D06E92C00BA12FE /* Build configuration list for PBXNativeTarget "Swift14_自动引用计数" */;
+			buildConfigurationList = 1B35BCCE1D0CF82C002D3CE7 /* Build configuration list for PBXNativeTarget "Swift15_可选链" */;
 			buildPhases = (
-				1B2A114A1D06E92C00BA12FE /* Sources */,
-				1B2A114B1D06E92C00BA12FE /* Frameworks */,
-				1B2A114C1D06E92C00BA12FE /* CopyFiles */,
+				1B35BCC31D0CF82C002D3CE7 /* Sources */,
+				1B35BCC41D0CF82C002D3CE7 /* Frameworks */,
+				1B35BCC51D0CF82C002D3CE7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swift14_自动引用计数";
-			productName = "Swift14_自动引用计数";
-			productReference = 1B2A114E1D06E92C00BA12FE /* Swift14_自动引用计数 */;
+			name = "Swift15_可选链";
+			productName = "Swift15_可选链";
+			productReference = 1B35BCC71D0CF82C002D3CE7 /* Swift15_可选链 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1B2A11461D06E92C00BA12FE /* Project object */ = {
+		1B35BCBF1D0CF82C002D3CE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = sks;
 				TargetAttributes = {
-					1B2A114D1D06E92C00BA12FE = {
+					1B35BCC61D0CF82C002D3CE7 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 1B2A11491D06E92C00BA12FE /* Build configuration list for PBXProject "Swift14_自动引用计数" */;
+			buildConfigurationList = 1B35BCC21D0CF82C002D3CE7 /* Build configuration list for PBXProject "Swift15_可选链" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1B2A11451D06E92C00BA12FE;
-			productRefGroup = 1B2A114F1D06E92C00BA12FE /* Products */;
+			mainGroup = 1B35BCBE1D0CF82C002D3CE7;
+			productRefGroup = 1B35BCC81D0CF82C002D3CE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B2A114D1D06E92C00BA12FE /* Swift14_自动引用计数 */,
+				1B35BCC61D0CF82C002D3CE7 /* Swift15_可选链 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B2A114A1D06E92C00BA12FE /* Sources */ = {
+		1B35BCC31D0CF82C002D3CE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2A11611D06F6B600BA12FE /* CreditCard.swift in Sources */,
-				1B2A115D1D06F64100BA12FE /* Customer.swift in Sources */,
-				1B2F5E6C1D07BC2700556057 /* City.swift in Sources */,
-				1B2A115B1D06EFF000BA12FE /* Apartment.swift in Sources */,
-				1B2F5E6A1D07BC1A00556057 /* Country.swift in Sources */,
-				1B2A11521D06E92C00BA12FE /* main.swift in Sources */,
+				1B35BCD21D0CFB84002D3CE7 /* Residence.swift in Sources */,
+				1B35BCCB1D0CF82C002D3CE7 /* main.swift in Sources */,
+				1B35BCD61D0CFE4F002D3CE7 /* Address.swift in Sources */,
+				1B35BCD41D0CFE00002D3CE7 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1B2A11531D06E92C00BA12FE /* Debug */ = {
+		1B35BCCC1D0CF82C002D3CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		1B2A11541D06E92C00BA12FE /* Release */ = {
+		1B35BCCD1D0CF82C002D3CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,14 +220,14 @@
 			};
 			name = Release;
 		};
-		1B2A11561D06E92C00BA12FE /* Debug */ = {
+		1B35BCCF1D0CF82C002D3CE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1B2A11571D06E92C00BA12FE /* Release */ = {
+		1B35BCD01D0CF82C002D3CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -245,25 +237,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B2A11491D06E92C00BA12FE /* Build configuration list for PBXProject "Swift14_自动引用计数" */ = {
+		1B35BCC21D0CF82C002D3CE7 /* Build configuration list for PBXProject "Swift15_可选链" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B2A11531D06E92C00BA12FE /* Debug */,
-				1B2A11541D06E92C00BA12FE /* Release */,
+				1B35BCCC1D0CF82C002D3CE7 /* Debug */,
+				1B35BCCD1D0CF82C002D3CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B2A11551D06E92C00BA12FE /* Build configuration list for PBXNativeTarget "Swift14_自动引用计数" */ = {
+		1B35BCCE1D0CF82C002D3CE7 /* Build configuration list for PBXNativeTarget "Swift15_可选链" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B2A11561D06E92C00BA12FE /* Debug */,
-				1B2A11571D06E92C00BA12FE /* Release */,
+				1B35BCCF1D0CF82C002D3CE7 /* Debug */,
+				1B35BCD01D0CF82C002D3CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1B2A11461D06E92C00BA12FE /* Project object */;
+	rootObject = 1B35BCBF1D0CF82C002D3CE7 /* Project object */;
 }
