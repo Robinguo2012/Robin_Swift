@@ -64,8 +64,13 @@ unit = nil
 var json:Customer?
 json = Customer(name: "json")
 //let creditCard = CreditCard(num: 123456789, customer: json!)
-//json!.creditCard = creditCard
-json!.creditCard = CreditCard(num: 1232432424234, customer: json!)
+//<<<<<<< HEAD
+////json!.creditCard = creditCard
+//json!.creditCard = CreditCard(num: 1232432424234, customer: json!)
+//=======
+json!.creditCard = CreditCard(num: 1234567, customer: json!)
+
+//>>>>>>> d3f479e66fc0e079e9126d4321c1aeccd861abce
 
 json = nil
 

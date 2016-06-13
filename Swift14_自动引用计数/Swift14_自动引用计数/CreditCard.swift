@@ -9,6 +9,7 @@
 class CreditCard {
 
     let num:UInt64
+    
     unowned let customer: Customer
     
     init(num: UInt64, customer: Customer){
