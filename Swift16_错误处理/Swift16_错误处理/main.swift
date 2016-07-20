@@ -51,12 +51,6 @@ class VendingMachine {
         guard item.price <= coinsDeposited else {
             throw VendingMachineError.InsufficientFunds(coinsNeed: item.price - coinsDeposited)
         }
-        
-        coinsDeposited - 
     }
-    
-    
-    
-    
 }
 
