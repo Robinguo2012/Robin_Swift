@@ -15,6 +15,7 @@
 		1B2A9B461D3C9E8E00BDE588 /* GCD_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A9B451D3C9E8E00BDE588 /* GCD_01Tests.swift */; };
 		1B2A9B511D3C9E8E00BDE588 /* GCD_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A9B501D3C9E8E00BDE588 /* GCD_01UITests.swift */; };
 		1B3939DC1D40B8EF00B16760 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3939DB1D40B8EF00B16760 /* PhotoCollectionViewController.swift */; };
+		1B3939DE1D41D6E600B16760 /* SharedObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3939DD1D41D6E600B16760 /* SharedObj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B2A9B501D3C9E8E00BDE588 /* GCD_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD_01UITests.swift; sourceTree = "<group>"; };
 		1B2A9B521D3C9E8E00BDE588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B3939DB1D40B8EF00B16760 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		1B3939DD1D41D6E600B16760 /* SharedObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedObj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1B2A9B301D3C9E8E00BDE588 /* AppDelegate.swift */,
 				1B3939DB1D40B8EF00B16760 /* PhotoCollectionViewController.swift */,
 				1B2A9B321D3C9E8E00BDE588 /* ViewController.swift */,
+				1B3939DD1D41D6E600B16760 /* SharedObj.swift */,
 				1B2A9B341D3C9E8E00BDE588 /* Main.storyboard */,
 				1B2A9B371D3C9E8E00BDE588 /* Assets.xcassets */,
 				1B2A9B391D3C9E8E00BDE588 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3939DE1D41D6E600B16760 /* SharedObj.swift in Sources */,
 				1B2A9B331D3C9E8E00BDE588 /* ViewController.swift in Sources */,
 				1B3939DC1D40B8EF00B16760 /* PhotoCollectionViewController.swift in Sources */,
 				1B2A9B311D3C9E8E00BDE588 /* AppDelegate.swift in Sources */,
