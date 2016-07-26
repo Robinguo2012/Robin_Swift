@@ -22,6 +22,13 @@
 		1BEFB2411D47065E0028C644 /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2401D47065E0028C644 /* Togglable.swift */; };
 		1BEFB2431D4708D60028C644 /* InitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2421D4708D60028C644 /* InitProtocol.swift */; };
 		1BEFB2451D470B0A0028C644 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2441D470B0A0028C644 /* Dice.swift */; };
+		1BEFB24A1D4745460028C644 /* DiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2491D4745460028C644 /* DiceDelegate.swift */; };
+		1BEFB24C1D4748B50028C644 /* SnakesAndLadders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB24B1D4748B50028C644 /* SnakesAndLadders.swift */; };
+		1BEFB24E1D474D410028C644 /* DiceGameTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB24D1D474D410028C644 /* DiceGameTracker.swift */; };
+		1BEFB2501D47525D0028C644 /* TextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB24F1D47525D0028C644 /* TextRepresentable.swift */; };
+		1BEFB2531D4755B20028C644 /* Hamster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2521D4755B20028C644 /* Hamster.swift */; };
+		1BEFB2551D475AAF0028C644 /* InheritProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */; };
+		1BEFB2571D4766200028C644 /* CompoundProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2561D4766200028C644 /* CompoundProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		1BEFB2401D47065E0028C644 /* Togglable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
 		1BEFB2421D4708D60028C644 /* InitProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitProtocol.swift; sourceTree = "<group>"; };
 		1BEFB2441D470B0A0028C644 /* Dice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		1BEFB2491D4745460028C644 /* DiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceDelegate.swift; sourceTree = "<group>"; };
+		1BEFB24B1D4748B50028C644 /* SnakesAndLadders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakesAndLadders.swift; sourceTree = "<group>"; };
+		1BEFB24D1D474D410028C644 /* DiceGameTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceGameTracker.swift; sourceTree = "<group>"; };
+		1BEFB24F1D47525D0028C644 /* TextRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRepresentable.swift; sourceTree = "<group>"; };
+		1BEFB2521D4755B20028C644 /* Hamster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamster.swift; sourceTree = "<group>"; };
+		1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InheritProtocol.swift; sourceTree = "<group>"; };
+		1BEFB2561D4766200028C644 /* CompoundProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +132,10 @@
 				1BEFB2371D46FE2A0028C644 /* Starship.swift */,
 				1BEFB23E1D4703E70028C644 /* LinearCongruentialGenerator.swift */,
 				1BEFB2441D470B0A0028C644 /* Dice.swift */,
-				1BEFB23B1D4702EB0028C644 /* protocols */,
+				1BEFB24B1D4748B50028C644 /* SnakesAndLadders.swift */,
+				1BEFB24D1D474D410028C644 /* DiceGameTracker.swift */,
+				1BEFB2511D47558C0028C644 /* Structs */,
+				1BEFB23B1D4702EB0028C644 /* Protocols */,
 				1BEFB20B1D46FB7B0028C644 /* Main.storyboard */,
 				1BEFB20E1D46FB7B0028C644 /* Assets.xcassets */,
 				1BEFB2101D46FB7B0028C644 /* LaunchScreen.storyboard */,
@@ -145,7 +162,7 @@
 			path = "Swift20_协议UITests";
 			sourceTree = "<group>";
 		};
-		1BEFB23B1D4702EB0028C644 /* protocols */ = {
+		1BEFB23B1D4702EB0028C644 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				1BEFB2391D4700470028C644 /* FullyNamed.swift */,
@@ -153,8 +170,21 @@
 				1BEFB23C1D4703050028C644 /* MethodProtocol.swift */,
 				1BEFB2401D47065E0028C644 /* Togglable.swift */,
 				1BEFB2421D4708D60028C644 /* InitProtocol.swift */,
+				1BEFB2491D4745460028C644 /* DiceDelegate.swift */,
+				1BEFB24F1D47525D0028C644 /* TextRepresentable.swift */,
+				1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */,
+				1BEFB2561D4766200028C644 /* CompoundProtocol.swift */,
 			);
+			name = Protocols;
 			path = protocols;
+			sourceTree = "<group>";
+		};
+		1BEFB2511D47558C0028C644 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				1BEFB2521D4755B20028C644 /* Hamster.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +322,18 @@
 				1BEFB20A1D46FB7B0028C644 /* ViewController.swift in Sources */,
 				1BEFB2451D470B0A0028C644 /* Dice.swift in Sources */,
 				1BEFB2081D46FB7B0028C644 /* AppDelegate.swift in Sources */,
+				1BEFB2571D4766200028C644 /* CompoundProtocol.swift in Sources */,
 				1BEFB2431D4708D60028C644 /* InitProtocol.swift in Sources */,
+				1BEFB2551D475AAF0028C644 /* InheritProtocol.swift in Sources */,
+				1BEFB2501D47525D0028C644 /* TextRepresentable.swift in Sources */,
 				1BEFB2411D47065E0028C644 /* Togglable.swift in Sources */,
 				1BEFB2361D46FD660028C644 /* someProtocol.swift in Sources */,
 				1BEFB23D1D4703050028C644 /* MethodProtocol.swift in Sources */,
+				1BEFB24C1D4748B50028C644 /* SnakesAndLadders.swift in Sources */,
+				1BEFB2531D4755B20028C644 /* Hamster.swift in Sources */,
 				1BEFB2381D46FE2A0028C644 /* Starship.swift in Sources */,
+				1BEFB24A1D4745460028C644 /* DiceDelegate.swift in Sources */,
+				1BEFB24E1D474D410028C644 /* DiceGameTracker.swift in Sources */,
 				1BEFB23F1D4703E70028C644 /* LinearCongruentialGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

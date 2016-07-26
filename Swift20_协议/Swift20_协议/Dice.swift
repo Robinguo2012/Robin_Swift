@@ -26,3 +26,11 @@ class Dice {
         return Int(self.generator.random() * Double(sides)) + 1
     }
 }
+
+extension Dice: TextRepresentable {
+    
+    var textualDescription: String{
+        return "A \(sides) -side dice"
+    }
+    
+}

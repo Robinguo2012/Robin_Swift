@@ -17,6 +17,7 @@ class LinearCongruentialGenerator:MethodProtocol {
     
     
     
+    
     static func someTypeMethod() {
         
     }
@@ -25,19 +26,25 @@ class LinearCongruentialGenerator:MethodProtocol {
         
     }
     
+    
     func random() -> Double {
         lastRandom = ((lastRandom * a + c) % m)
-        return lastRandom/m
+        return lastRandom / m
     }
+    
+//    func random() -> Double {
+//        lastRandom = ((lastRandom * a + c) % m)
+//        return lastRandom/m
+//    }
 
 }
 
 enum OnOffSwitch: Togglable {
     case On,Off
-
+    
     mutating func toggle() {
         switch self {
-        case .On:
+        case On:
             self = Off
         case .Off:
             self = On
