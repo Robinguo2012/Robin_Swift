@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB1A4A61D4894A0008780B6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1A4A51D4894A0008780B6 /* Test.m */; };
+		1BB1A4A91D4899D8008780B6 /* WKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1A4A81D4899D8008780B6 /* WKCell.m */; };
+		1BB1A4AC1D489B04008780B6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1A4AB1D489B04008780B6 /* MyCell.swift */; };
 		1BEFB2081D46FB7B0028C644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2071D46FB7B0028C644 /* AppDelegate.swift */; };
 		1BEFB20A1D46FB7B0028C644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2091D46FB7B0028C644 /* ViewController.swift */; };
 		1BEFB20D1D46FB7B0028C644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEFB20B1D46FB7B0028C644 /* Main.storyboard */; };
@@ -29,6 +32,16 @@
 		1BEFB2531D4755B20028C644 /* Hamster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2521D4755B20028C644 /* Hamster.swift */; };
 		1BEFB2551D475AAF0028C644 /* InheritProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */; };
 		1BEFB2571D4766200028C644 /* CompoundProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2561D4766200028C644 /* CompoundProtocol.swift */; };
+		1BEFB29E1D484F380028C644 /* HasArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB29D1D484F380028C644 /* HasArea.swift */; };
+		1BEFB2A01D484FA60028C644 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB29F1D484FA60028C644 /* Country.swift */; };
+		1BEFB2A21D484FE20028C644 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2A11D484FE20028C644 /* Circle.swift */; };
+		1BEFB2A41D4850A00028C644 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2A31D4850A00028C644 /* Animal.swift */; };
+		1BEFB2A61D4854A40028C644 /* OptionalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2A51D4854A40028C644 /* OptionalProtocol.swift */; };
+		1BEFB2A81D48554C0028C644 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2A71D48554C0028C644 /* Counter.swift */; };
+		1BEFB2AA1D4857E00028C644 /* ThreeSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2A91D4857E00028C644 /* ThreeSource.swift */; };
+		1BEFB2AC1D4859E20028C644 /* TowardsZeroSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2AB1D4859E20028C644 /* TowardsZeroSource.swift */; };
+		1BEFB2AF1D485EF10028C644 /* CollectionTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEFB2AE1D485EF10028C644 /* CollectionTypeExtension.swift */; };
+		902EE134A00BF5BE8DDD6E13 /* libPods-Swift20_协议.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F88176713B968AB8A96D6150 /* libPods-Swift20_协议.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BB1A4A31D4894A0008780B6 /* Swift20_协议-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift20_协议-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BB1A4A41D4894A0008780B6 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1BB1A4A51D4894A0008780B6 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		1BB1A4A71D4899D8008780B6 /* WKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCell.h; sourceTree = "<group>"; };
+		1BB1A4A81D4899D8008780B6 /* WKCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCell.m; sourceTree = "<group>"; };
+		1BB1A4AB1D489B04008780B6 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		1BEFB2041D46FB7B0028C644 /* Swift20_协议.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift20_协议.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEFB2071D46FB7B0028C644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEFB2091D46FB7B0028C644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +96,18 @@
 		1BEFB2521D4755B20028C644 /* Hamster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamster.swift; sourceTree = "<group>"; };
 		1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InheritProtocol.swift; sourceTree = "<group>"; };
 		1BEFB2561D4766200028C644 /* CompoundProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundProtocol.swift; sourceTree = "<group>"; };
+		1BEFB29D1D484F380028C644 /* HasArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasArea.swift; sourceTree = "<group>"; };
+		1BEFB29F1D484FA60028C644 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1BEFB2A11D484FE20028C644 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		1BEFB2A31D4850A00028C644 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		1BEFB2A51D4854A40028C644 /* OptionalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalProtocol.swift; sourceTree = "<group>"; };
+		1BEFB2A71D48554C0028C644 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		1BEFB2A91D4857E00028C644 /* ThreeSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSource.swift; sourceTree = "<group>"; };
+		1BEFB2AB1D4859E20028C644 /* TowardsZeroSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowardsZeroSource.swift; sourceTree = "<group>"; };
+		1BEFB2AE1D485EF10028C644 /* CollectionTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypeExtension.swift; sourceTree = "<group>"; };
+		61E1544E167D5242396F0381 /* Pods-Swift20_协议.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift20_协议.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift20_协议/Pods-Swift20_协议.release.xcconfig"; sourceTree = "<group>"; };
+		F4EB7E861E50A65017D3AAA3 /* Pods-Swift20_协议.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift20_协议.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift20_协议/Pods-Swift20_协议.debug.xcconfig"; sourceTree = "<group>"; };
+		F88176713B968AB8A96D6150 /* libPods-Swift20_协议.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swift20_协议.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902EE134A00BF5BE8DDD6E13 /* libPods-Swift20_协议.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +136,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BB1A4AA1D489AEE008780B6 /* CustomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB1A4AB1D489B04008780B6 /* MyCell.swift */,
+			);
+			path = CustomeView;
+			sourceTree = "<group>";
+		};
 		1BEFB1FB1D46FB7B0028C644 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +151,8 @@
 				1BEFB21B1D46FB7B0028C644 /* Swift20_协议Tests */,
 				1BEFB2261D46FB7B0028C644 /* Swift20_协议UITests */,
 				1BEFB2051D46FB7B0028C644 /* Products */,
+				9C2AB36D5161FE81B6BCB3AC /* Pods */,
+				303BC70A85CBD5F6981AFE51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,12 +176,25 @@
 				1BEFB2441D470B0A0028C644 /* Dice.swift */,
 				1BEFB24B1D4748B50028C644 /* SnakesAndLadders.swift */,
 				1BEFB24D1D474D410028C644 /* DiceGameTracker.swift */,
+				1BEFB29F1D484FA60028C644 /* Country.swift */,
+				1BEFB2A11D484FE20028C644 /* Circle.swift */,
+				1BEFB2A31D4850A00028C644 /* Animal.swift */,
+				1BEFB2A71D48554C0028C644 /* Counter.swift */,
+				1BEFB2A91D4857E00028C644 /* ThreeSource.swift */,
+				1BEFB2AB1D4859E20028C644 /* TowardsZeroSource.swift */,
+				1BB1A4A41D4894A0008780B6 /* Test.h */,
+				1BB1A4A51D4894A0008780B6 /* Test.m */,
+				1BB1A4AA1D489AEE008780B6 /* CustomeView */,
+				1BB1A4A71D4899D8008780B6 /* WKCell.h */,
+				1BB1A4A81D4899D8008780B6 /* WKCell.m */,
+				1BEFB2AD1D485ED70028C644 /* Extension */,
 				1BEFB2511D47558C0028C644 /* Structs */,
 				1BEFB23B1D4702EB0028C644 /* Protocols */,
 				1BEFB20B1D46FB7B0028C644 /* Main.storyboard */,
 				1BEFB20E1D46FB7B0028C644 /* Assets.xcassets */,
 				1BEFB2101D46FB7B0028C644 /* LaunchScreen.storyboard */,
 				1BEFB2131D46FB7B0028C644 /* Info.plist */,
+				1BB1A4A31D4894A0008780B6 /* Swift20_协议-Bridging-Header.h */,
 			);
 			path = "Swift20_协议";
 			sourceTree = "<group>";
@@ -174,6 +229,8 @@
 				1BEFB24F1D47525D0028C644 /* TextRepresentable.swift */,
 				1BEFB2541D475AAF0028C644 /* InheritProtocol.swift */,
 				1BEFB2561D4766200028C644 /* CompoundProtocol.swift */,
+				1BEFB29D1D484F380028C644 /* HasArea.swift */,
+				1BEFB2A51D4854A40028C644 /* OptionalProtocol.swift */,
 			);
 			name = Protocols;
 			path = protocols;
@@ -187,6 +244,31 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
+		1BEFB2AD1D485ED70028C644 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1BEFB2AE1D485EF10028C644 /* CollectionTypeExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		303BC70A85CBD5F6981AFE51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88176713B968AB8A96D6150 /* libPods-Swift20_协议.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C2AB36D5161FE81B6BCB3AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB7E861E50A65017D3AAA3 /* Pods-Swift20_协议.debug.xcconfig */,
+				61E1544E167D5242396F0381 /* Pods-Swift20_协议.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BEFB22C1D46FB7B0028C644 /* Build configuration list for PBXNativeTarget "Swift20_协议" */;
 			buildPhases = (
+				07759A1B2CD6539B9F825D7D /* [CP] Check Pods Manifest.lock */,
 				1BEFB2001D46FB7B0028C644 /* Sources */,
 				1BEFB2011D46FB7B0028C644 /* Frameworks */,
 				1BEFB2021D46FB7B0028C644 /* Resources */,
+				C385653C90933998442277E8 /* [CP] Embed Pods Frameworks */,
+				FC0DA85EC61DD9D89C225487 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,26 +398,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07759A1B2CD6539B9F825D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C385653C90933998442277E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift20_协议/Pods-Swift20_协议-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0DA85EC61DD9D89C225487 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift20_协议/Pods-Swift20_协议-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BEFB2001D46FB7B0028C644 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1BEFB23A1D4700470028C644 /* FullyNamed.swift in Sources */,
+				1BEFB29E1D484F380028C644 /* HasArea.swift in Sources */,
 				1BEFB20A1D46FB7B0028C644 /* ViewController.swift in Sources */,
 				1BEFB2451D470B0A0028C644 /* Dice.swift in Sources */,
+				1BEFB2A81D48554C0028C644 /* Counter.swift in Sources */,
 				1BEFB2081D46FB7B0028C644 /* AppDelegate.swift in Sources */,
+				1BEFB2A21D484FE20028C644 /* Circle.swift in Sources */,
 				1BEFB2571D4766200028C644 /* CompoundProtocol.swift in Sources */,
 				1BEFB2431D4708D60028C644 /* InitProtocol.swift in Sources */,
+				1BEFB2A01D484FA60028C644 /* Country.swift in Sources */,
 				1BEFB2551D475AAF0028C644 /* InheritProtocol.swift in Sources */,
 				1BEFB2501D47525D0028C644 /* TextRepresentable.swift in Sources */,
+				1BEFB2A61D4854A40028C644 /* OptionalProtocol.swift in Sources */,
+				1BEFB2A41D4850A00028C644 /* Animal.swift in Sources */,
 				1BEFB2411D47065E0028C644 /* Togglable.swift in Sources */,
+				1BEFB2AC1D4859E20028C644 /* TowardsZeroSource.swift in Sources */,
 				1BEFB2361D46FD660028C644 /* someProtocol.swift in Sources */,
 				1BEFB23D1D4703050028C644 /* MethodProtocol.swift in Sources */,
 				1BEFB24C1D4748B50028C644 /* SnakesAndLadders.swift in Sources */,
 				1BEFB2531D4755B20028C644 /* Hamster.swift in Sources */,
 				1BEFB2381D46FE2A0028C644 /* Starship.swift in Sources */,
+				1BB1A4A91D4899D8008780B6 /* WKCell.m in Sources */,
+				1BB1A4A61D4894A0008780B6 /* Test.m in Sources */,
+				1BB1A4AC1D489B04008780B6 /* MyCell.swift in Sources */,
+				1BEFB2AF1D485EF10028C644 /* CollectionTypeExtension.swift in Sources */,
 				1BEFB24A1D4745460028C644 /* DiceDelegate.swift in Sources */,
+				1BEFB2AA1D4857E00028C644 /* ThreeSource.swift in Sources */,
 				1BEFB24E1D474D410028C644 /* DiceGameTracker.swift in Sources */,
 				1BEFB23F1D4703E70028C644 /* LinearCongruentialGenerator.swift in Sources */,
 			);
@@ -476,23 +621,30 @@
 		};
 		1BEFB22D1D46FB7B0028C644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EB7E861E50A65017D3AAA3 /* Pods-Swift20_协议.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift20_协议/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.walkingtec.Swift20---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift20_协议/Swift20_协议-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1BEFB22E1D46FB7B0028C644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E1544E167D5242396F0381 /* Pods-Swift20_协议.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift20_协议/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.walkingtec.Swift20---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift20_协议/Swift20_协议-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -561,6 +713,7 @@
 				1BEFB22E1D46FB7B0028C644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEFB22F1D46FB7B0028C644 /* Build configuration list for PBXNativeTarget "Swift20_协议Tests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +722,7 @@
 				1BEFB2311D46FB7B0028C644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BEFB2321D46FB7B0028C644 /* Build configuration list for PBXNativeTarget "Swift20_协议UITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +731,7 @@
 				1BEFB2341D46FB7B0028C644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

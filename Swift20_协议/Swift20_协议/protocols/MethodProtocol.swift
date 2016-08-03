@@ -14,3 +14,9 @@ protocol MethodProtocol {
     
     func random() -> Double
 }
+
+extension MethodProtocol {
+    func randomBool() -> Bool{
+        return random() > 0.5
+    }
+}

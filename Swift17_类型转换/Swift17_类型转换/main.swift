@@ -84,6 +84,8 @@ for movie in someObjects as! [Movie] {
     print("movie name \(movie.name) director \(movie.director)")
 }
 
+let errorCode: (Int,String)
+
 // Any
 //let httpCode = (404, "Network")
 //
@@ -91,13 +93,16 @@ for movie in someObjects as! [Movie] {
 //
 //errorCode(404,"BadNet")
 
+//let errorCode = (Int,String)
+//errorCode(Int,String)
+
+
 var things = [Any]()
 things.append(0)
 things.append(0.0)
 things.append(5.0)
 things.append("hello world")
 
-let errorCode : (Int, String)
 errorCode = (404, "badnet")
 things.append(errorCode)
 
