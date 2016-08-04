@@ -13,6 +13,6 @@ struct Node {
     var next: Any?
 }
 
-func push() -> <#return type#> {
-    <#function body#>
-}
+//func push() -> <#return type#> {
+//    <#function body#>
+//}

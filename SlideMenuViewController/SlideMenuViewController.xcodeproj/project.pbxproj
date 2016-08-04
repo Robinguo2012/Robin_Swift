@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B338A841D534279009C1BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B338A831D534279009C1BCE /* AppDelegate.swift */; };
+		1B338A861D534279009C1BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B338A851D534279009C1BCE /* ViewController.swift */; };
+		1B338A891D534279009C1BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B338A871D534279009C1BCE /* Main.storyboard */; };
+		1B338A8B1D534279009C1BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B338A8A1D534279009C1BCE /* Assets.xcassets */; };
+		1B338A8E1D534279009C1BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B338A8C1D534279009C1BCE /* LaunchScreen.storyboard */; };
+		1B338A991D534279009C1BCE /* SlideMenuViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B338A981D534279009C1BCE /* SlideMenuViewControllerTests.swift */; };
+		1B338AA41D534279009C1BCE /* SlideMenuViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B338AA31D534279009C1BCE /* SlideMenuViewControllerUITests.swift */; };
+		1B338AB21D534769009C1BCE /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B338AB11D534769009C1BCE /* SlideMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B338A951D534279009C1BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B338A781D534279009C1BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B338A7F1D534279009C1BCE;
+			remoteInfo = SlideMenuViewController;
+		};
+		1B338AA01D534279009C1BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B338A781D534279009C1BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B338A7F1D534279009C1BCE;
+			remoteInfo = SlideMenuViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B338A801D534279009C1BCE /* SlideMenuViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B338A831D534279009C1BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B338A851D534279009C1BCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B338A881D534279009C1BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B338A8A1D534279009C1BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B338A8D1D534279009C1BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B338A8F1D534279009C1BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B338A941D534279009C1BCE /* SlideMenuViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B338A981D534279009C1BCE /* SlideMenuViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewControllerTests.swift; sourceTree = "<group>"; };
+		1B338A9A1D534279009C1BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B338A9F1D534279009C1BCE /* SlideMenuViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B338AA31D534279009C1BCE /* SlideMenuViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewControllerUITests.swift; sourceTree = "<group>"; };
+		1B338AA51D534279009C1BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B338AB11D534769009C1BCE /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B338A7D1D534279009C1BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A911D534279009C1BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A9C1D534279009C1BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B338A771D534279009C1BCE = {
+			isa = PBXGroup;
+			children = (
+				1B338A821D534279009C1BCE /* SlideMenuViewController */,
+				1B338A971D534279009C1BCE /* SlideMenuViewControllerTests */,
+				1B338AA21D534279009C1BCE /* SlideMenuViewControllerUITests */,
+				1B338A811D534279009C1BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B338A811D534279009C1BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B338A801D534279009C1BCE /* SlideMenuViewController.app */,
+				1B338A941D534279009C1BCE /* SlideMenuViewControllerTests.xctest */,
+				1B338A9F1D534279009C1BCE /* SlideMenuViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B338A821D534279009C1BCE /* SlideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B338A831D534279009C1BCE /* AppDelegate.swift */,
+				1B338A851D534279009C1BCE /* ViewController.swift */,
+				1B338AB11D534769009C1BCE /* SlideMenuViewController.swift */,
+				1B338A871D534279009C1BCE /* Main.storyboard */,
+				1B338A8A1D534279009C1BCE /* Assets.xcassets */,
+				1B338A8C1D534279009C1BCE /* LaunchScreen.storyboard */,
+				1B338A8F1D534279009C1BCE /* Info.plist */,
+			);
+			path = SlideMenuViewController;
+			sourceTree = "<group>";
+		};
+		1B338A971D534279009C1BCE /* SlideMenuViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B338A981D534279009C1BCE /* SlideMenuViewControllerTests.swift */,
+				1B338A9A1D534279009C1BCE /* Info.plist */,
+			);
+			path = SlideMenuViewControllerTests;
+			sourceTree = "<group>";
+		};
+		1B338AA21D534279009C1BCE /* SlideMenuViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B338AA31D534279009C1BCE /* SlideMenuViewControllerUITests.swift */,
+				1B338AA51D534279009C1BCE /* Info.plist */,
+			);
+			path = SlideMenuViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B338A7F1D534279009C1BCE /* SlideMenuViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B338AA81D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewController" */;
+			buildPhases = (
+				1B338A7C1D534279009C1BCE /* Sources */,
+				1B338A7D1D534279009C1BCE /* Frameworks */,
+				1B338A7E1D534279009C1BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuViewController;
+			productName = SlideMenuViewController;
+			productReference = 1B338A801D534279009C1BCE /* SlideMenuViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B338A931D534279009C1BCE /* SlideMenuViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B338AAB1D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewControllerTests" */;
+			buildPhases = (
+				1B338A901D534279009C1BCE /* Sources */,
+				1B338A911D534279009C1BCE /* Frameworks */,
+				1B338A921D534279009C1BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B338A961D534279009C1BCE /* PBXTargetDependency */,
+			);
+			name = SlideMenuViewControllerTests;
+			productName = SlideMenuViewControllerTests;
+			productReference = 1B338A941D534279009C1BCE /* SlideMenuViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B338A9E1D534279009C1BCE /* SlideMenuViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B338AAE1D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewControllerUITests" */;
+			buildPhases = (
+				1B338A9B1D534279009C1BCE /* Sources */,
+				1B338A9C1D534279009C1BCE /* Frameworks */,
+				1B338A9D1D534279009C1BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B338AA11D534279009C1BCE /* PBXTargetDependency */,
+			);
+			name = SlideMenuViewControllerUITests;
+			productName = SlideMenuViewControllerUITests;
+			productReference = 1B338A9F1D534279009C1BCE /* SlideMenuViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B338A781D534279009C1BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sks;
+				TargetAttributes = {
+					1B338A7F1D534279009C1BCE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1B338A931D534279009C1BCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B338A7F1D534279009C1BCE;
+					};
+					1B338A9E1D534279009C1BCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B338A7F1D534279009C1BCE;
+					};
+				};
+			};
+			buildConfigurationList = 1B338A7B1D534279009C1BCE /* Build configuration list for PBXProject "SlideMenuViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B338A771D534279009C1BCE;
+			productRefGroup = 1B338A811D534279009C1BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B338A7F1D534279009C1BCE /* SlideMenuViewController */,
+				1B338A931D534279009C1BCE /* SlideMenuViewControllerTests */,
+				1B338A9E1D534279009C1BCE /* SlideMenuViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B338A7E1D534279009C1BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B338A8E1D534279009C1BCE /* LaunchScreen.storyboard in Resources */,
+				1B338A8B1D534279009C1BCE /* Assets.xcassets in Resources */,
+				1B338A891D534279009C1BCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A921D534279009C1BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A9D1D534279009C1BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B338A7C1D534279009C1BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B338A861D534279009C1BCE /* ViewController.swift in Sources */,
+				1B338AB21D534769009C1BCE /* SlideMenuViewController.swift in Sources */,
+				1B338A841D534279009C1BCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A901D534279009C1BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B338A991D534279009C1BCE /* SlideMenuViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B338A9B1D534279009C1BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B338AA41D534279009C1BCE /* SlideMenuViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B338A961D534279009C1BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B338A7F1D534279009C1BCE /* SlideMenuViewController */;
+			targetProxy = 1B338A951D534279009C1BCE /* PBXContainerItemProxy */;
+		};
+		1B338AA11D534279009C1BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B338A7F1D534279009C1BCE /* SlideMenuViewController */;
+			targetProxy = 1B338AA01D534279009C1BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B338A871D534279009C1BCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B338A881D534279009C1BCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B338A8C1D534279009C1BCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B338A8D1D534279009C1BCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B338AA61D534279009C1BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B338AA71D534279009C1BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B338AA91D534279009C1BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideMenuViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B338AAA1D534279009C1BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideMenuViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B338AAC1D534279009C1BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideMenuViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenuViewController.app/SlideMenuViewController";
+			};
+			name = Debug;
+		};
+		1B338AAD1D534279009C1BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideMenuViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenuViewController.app/SlideMenuViewController";
+			};
+			name = Release;
+		};
+		1B338AAF1D534279009C1BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideMenuViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideMenuViewController;
+			};
+			name = Debug;
+		};
+		1B338AB01D534279009C1BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlideMenuViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.walkingtec.SlideMenuViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlideMenuViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B338A7B1D534279009C1BCE /* Build configuration list for PBXProject "SlideMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B338AA61D534279009C1BCE /* Debug */,
+				1B338AA71D534279009C1BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B338AA81D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B338AA91D534279009C1BCE /* Debug */,
+				1B338AAA1D534279009C1BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B338AAB1D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B338AAC1D534279009C1BCE /* Debug */,
+				1B338AAD1D534279009C1BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B338AAE1D534279009C1BCE /* Build configuration list for PBXNativeTarget "SlideMenuViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B338AAF1D534279009C1BCE /* Debug */,
+				1B338AB01D534279009C1BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B338A781D534279009C1BCE /* Project object */;
+}
