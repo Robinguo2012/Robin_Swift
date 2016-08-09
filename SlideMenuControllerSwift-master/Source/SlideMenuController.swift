@@ -338,6 +338,7 @@ public class SlideMenuController: UIViewController, UIGestureRecognizerDelegate 
         static var lastState : UIGestureRecognizerState = .Ended
     }
     
+    // MARK: 左滑的手势
     func handleLeftPanGesture(panGesture: UIPanGestureRecognizer) {
         
         if !isTagetViewController() {
