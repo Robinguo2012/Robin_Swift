@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     private let tableView = UITableView.init(frame: CGRectZero, style: <#T##UITableViewStyle#>)
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib
         
-//        let test = Test()
+        MyTestClass.classForCoder()
+        //        let test = Test()
 //        test.name = "guo"
 //        print(test.name)
         

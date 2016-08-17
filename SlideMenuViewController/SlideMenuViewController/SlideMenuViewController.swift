@@ -222,9 +222,29 @@ class SlideMenuViewController: UIViewController,UIGestureRecognizerDelegate {
             LeftPanState.wasHiddenAtStartOfPan = isLeftHidden()
             
             leftViewController?.beginAppearanceTransition(LeftPanState.wasOpenAtStartOfPan, animated: true)
+            addShadowToView(leftContainerVeiw)
+            setOpenWindowLevel()
+        case UIGestureRecognizerState.Changed:
+            if LeftPanState.lastState != .Began && LeftPanState.lastState != .Changed {
+                return
+            }
             
-        default:
-            <#code#>
+            let translation: CGPoint = panGesture.translationInView(panGesture.view!)
+            leftContainerVeiw.frame = applyLeftTranslate(translation, toFrame: LeftPanState.frameAtStartPan)
+            applyLeftOpacity()
+            applyContentViewScale()
+        case UIGestureRecognizerState.Ended,UIGestureRecognizerState.Cancelled:
+            if LeftPanState.lastState != .Changed {
+                setCloseWindowLevel()
+                return
+            }
+            
+            
+        case UIGestureRecognizerState.Failed, UIGestureRecognizerState.Possible:
+            break
+            
+//        default:
+            
         }
         
     }
@@ -363,6 +383,12 @@ class SlideMenuViewController: UIViewController,UIGestureRecognizerDelegate {
         }
     }
     
+    private func setOpenWindowLevel() {
+        if SlideOptions.hiddenStatusBar {
+            
+        }
+    }
+    
     private func removeShadow(targetView: UIView) {
         targetView.layer.masksToBounds = true
         targetView.layer.opacity = 1.0
@@ -406,5 +432,61 @@ class SlideMenuViewController: UIViewController,UIGestureRecognizerDelegate {
     public func isLeftHidden() -> Bool{
         return leftContainerVeiw.frame.origin.x >= leftMargin()
     }
+    
+    private func applyLeftTranslate(translation: CGPoint, toFrame: CGRect) -> CGRect {
+        
+        var newOrigin: CGFloat = toFrame.origin.x
+        newOrigin += translation.x
+        var newFrame = toFrame
+        
+        let minOrigin: CGFloat = 0.0
+        let maxOrigin: CGFloat = leftMargin()
+        
+        if newOrigin < minOrigin {
+            newOrigin = minOrigin
+        }else if newOrigin > maxOrigin {
+            newOrigin = maxOrigin
+        }
+        
+        newFrame.origin.x = newOrigin
+        
+        return newFrame
+    }
+    
+    public func addShadowToView(targetView: UIView){
+        targetView.layer.masksToBounds = false
+        targetView.layer.shadowOffset = SlideOptions.shadowOffset
+        targetView.layer.shadowOpacity = Float(SlideOptions.shadowOpacity)
+        targetView.layer.shadowRadius = SlideOptions.shadowRadius
+        targetView.layer.shadowPath = UIBezierPath(rect: targetView.bounds).CGPath
+        
+    }
+    
+    private func applyLeftOpacity(){
+        let openLeftRatio: CGFloat = getOpenLeftRatio()
+        let opacity: CGFloat = SlideOptions.contentViewOpacity * openLeftRatio
+        opacityView.layer.opacity = Float(opacity)
+    }
+    
+    private func applyContentViewScale() {
+        let openLeftRatio: CGFloat = getOpenLeftRatio()
+        let scale: CGFloat = 1.0 - ((1.0 - SlideOptions.contentViewScale) * openLeftRatio)
+        let drag: CGFloat = SlideOptions.leftViewWidth + leftContainerVeiw.frame.origin.x
+        
+        SlideOptions.contentViewDrag == true ? (CGAffineTransformMakeTranslation(drag, 0)):(CGAffineTransformMakeScale(scale, scale))
+    }
+    
+    private func getOpenLeftRatio() -> CGFloat {
+        let width = leftContainerVeiw.frame.size.width
+        let currentPosition: CGFloat = leftContainerVeiw.frame.origin.x - leftMargin()
+        return currentPosition/width
+    }
+    
+    private func getOpenRightRatio() -> CGFloat {
+        let width: CGFloat = rightContainerView.frame.size.width
+        let currentPosition: CGFloat = rightContainerView.frame.origin.x
+        return -(currentPosition - CGRectGetWidth(view.bounds))/width
+    }
+    
     
 }

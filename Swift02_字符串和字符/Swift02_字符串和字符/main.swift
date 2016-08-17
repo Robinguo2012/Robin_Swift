@@ -62,6 +62,10 @@ print(eActue+combinedEactue)
 let enclosedEactue = "\u{E9}\u{20DD}"
 print(enclosedEactue)
 
+let data = NSData()
+
+let strin = String(data: data, encoding: NSUTF8StringEncoding)
+
 
 var word = "cafe"
 print("the number of \(word) is \(word.characters.count)")

@@ -32,7 +32,7 @@ public struct SlideMenuOptions {
     public static var rightViewWidth: CGFloat = 270.0
     public static var rightBezelWidth: CGFloat? = 16.0
     public static var rightPanFromBezel: Bool = true
-    public static var hideStatusBar: Bool = true
+    public static var hideStatusBar: Bool = false
     public static var pointOfNoReturnWidth: CGFloat = 44.0
     public static var simultaneousGestureRecognizers: Bool = true
 	public static var opacityViewBackgroundColor: UIColor = UIColor.blackColor()
