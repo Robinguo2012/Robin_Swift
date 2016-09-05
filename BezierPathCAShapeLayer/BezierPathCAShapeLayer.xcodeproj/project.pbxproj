@@ -14,6 +14,8 @@
 		1BE299F01D78350A007D60B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE299EE1D78350A007D60B3 /* LaunchScreen.storyboard */; };
 		1BE299FB1D78350A007D60B3 /* BezierPathCAShapeLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE299FA1D78350A007D60B3 /* BezierPathCAShapeLayerTests.swift */; };
 		1BE29A061D78350A007D60B3 /* BezierPathCAShapeLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE29A051D78350A007D60B3 /* BezierPathCAShapeLayerUITests.swift */; };
+		1BE29A171D793578007D60B3 /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE29A161D793578007D60B3 /* NextVC.swift */; };
+		1BF7D5591D7D07A3008FAC2F /* WXPullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7D5581D7D07A3008FAC2F /* WXPullView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1BE29A011D78350A007D60B3 /* BezierPathCAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathCAShapeLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE29A051D78350A007D60B3 /* BezierPathCAShapeLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathCAShapeLayerUITests.swift; sourceTree = "<group>"; };
 		1BE29A071D78350A007D60B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE29A161D793578007D60B3 /* NextVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
+		1BF7D5581D7D07A3008FAC2F /* WXPullView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXPullView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				1BE299E51D78350A007D60B3 /* AppDelegate.swift */,
 				1BE299E71D78350A007D60B3 /* ViewController.swift */,
+				1BE29A161D793578007D60B3 /* NextVC.swift */,
+				1BF7D5581D7D07A3008FAC2F /* WXPullView.swift */,
 				1BE299E91D78350A007D60B3 /* Main.storyboard */,
 				1BE299EC1D78350A007D60B3 /* Assets.xcassets */,
 				1BE299EE1D78350A007D60B3 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				1BE299E81D78350A007D60B3 /* ViewController.swift in Sources */,
 				1BE299E61D78350A007D60B3 /* AppDelegate.swift in Sources */,
+				1BF7D5591D7D07A3008FAC2F /* WXPullView.swift in Sources */,
+				1BE29A171D793578007D60B3 /* NextVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				1BE29A0C1D78350A007D60B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE29A0D1D78350A007D60B3 /* Build configuration list for PBXNativeTarget "BezierPathCAShapeLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				1BE29A0F1D78350A007D60B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE29A101D78350A007D60B3 /* Build configuration list for PBXNativeTarget "BezierPathCAShapeLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				1BE29A121D78350A007D60B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

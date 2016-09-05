@@ -47,10 +47,23 @@ class ViewController: UIViewController {
         self.view.layer.addSublayer(layer3)
         
         self.view.layer.addSublayer(shapeLayer)
-        
+
+        self.animation4()
 //        self.animation1()
-        self.animation2();
-        self.animation3();
+//        self.animation2();
+//        self.animation3();
+        
+        let btn = UIButton(type: .Custom)
+        btn.frame = CGRectMake(100, 400, 80, 90)
+        btn.backgroundColor = UIColor.greenColor()
+        btn.addTarget(self, action: #selector(btnClick), forControlEvents: .TouchUpInside)
+        
+        self.view.addSubview(btn)
+    }
+    
+    @objc private func btnClick(btn: UIButton){
+        let next = NextVC()
+        self.navigationController?.pushViewController(next, animated: true)
     }
 
     private func animation1(){
@@ -85,6 +98,54 @@ class ViewController: UIViewController {
         animation.toValue = 10
         animation.duration = 2
         self.layer!.addAnimation(animation, forKey: "")
+    }
+    
+    private func animation4() {
+        
+        self.layer!.strokeStart = 0.5
+        self.layer!.strokeEnd = 0.5
+        
+        let animation1 = CABasicAnimation(keyPath: "strokeStart")
+        animation1.fromValue = 0.5
+        animation1.toValue = 0
+        animation1.duration = 2
+        animation1.fillMode = kCAFillModeForwards;
+        animation1.removedOnCompletion = false
+
+        
+        let animation2 = CABasicAnimation(keyPath: "strokeEnd")
+        animation2.fromValue = 0.5
+        animation2.toValue = 1
+        animation2.duration = 2
+        animation2.fillMode = kCAFillModeForwards;
+        animation2.removedOnCompletion = false
+
+        
+        self.layer!.addAnimation(animation1, forKey: "")
+        self.layer!.addAnimation(animation2, forKey: "")
+        
+        let animation = CABasicAnimation(keyPath: "lineWidth")
+        animation.fromValue = 1
+        animation.toValue = 10
+        animation.duration = 2
+        animation.delegate = self
+                animation.fillMode = kCAFillModeForwards;
+                animation.removedOnCompletion = false
+
+        self.layer!.addAnimation(animation, forKey: "")
+        
+        let anGroup = CAAnimationGroup()
+        anGroup.animations = [animation1,animation2,animation]
+        
+        self.layer?.addAnimation(anGroup, forKey: "groupAnimation")
+        
+        //anGroup.delegate = self
+//        anGroup.fillMode = kCAFillModeRemoved;
+//        anGroup.removedOnCompletion = true
+    }
+    
+    override func animationDidStart(anim: CAAnimation) {
+        print("动画开始")
     }
     
     override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
